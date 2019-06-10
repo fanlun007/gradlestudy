@@ -10,7 +10,7 @@ public class AService {
         Apple apple = new Apple();
         apple.setName("mac");
         System.out.println(apple.toString());
-        log.info("{}", apple.toString());
+        log.info("{} + {}", apple.toString(), "fanlun008 push commit");
     }
 
 }
